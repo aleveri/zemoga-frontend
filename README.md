@@ -1,7 +1,7 @@
 # Zemoga Frontend Exam
 
 # ! Importante !
-Ejecutar previamente los proyectos User Backend [a link](https://github.com/aleveri/zemoga-backend-user) y zemoga backend 2.
+Ejecutar previamente los proyectos [User Backend](https://github.com/aleveri/zemoga-backend-user) y zemoga backend 2.
 
 # Instrucciones:
 
