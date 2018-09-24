@@ -1,0 +1,40 @@
+<div class="container-fluid">
+  <div class="row">
+    <h1 class="text-title">Your Votes: {{totalVotes}}</h1>
+  </div>
+  <div class="row mt-20">
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-7">
+      <div class="section">
+        <div class="item-container" *ngFor="let box of boxes">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="{{box.image}}" alt="" class="box-img">
+            </div>
+            <div class="col-md-4">
+              <div class="row">
+                <div class="col-12">
+                  <label>
+                    {{box.name}}
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <label>
+                    {{box.description}}
+                  </label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary custom-btn btn-block" (click)="save(box._id, box.name)">Vote</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
